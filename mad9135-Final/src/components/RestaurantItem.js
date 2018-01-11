@@ -35,7 +35,6 @@ function mapStateToProps(state) {
 }
 function mapDispatchToProps(dispatch, ownProps) {
     return {
-
         getInfo : ()=> dispatch(actions.getInfo(ownProps.id))
     };
 }

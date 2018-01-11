@@ -8,7 +8,6 @@ import { Container, Content, Card, CardItem, Body, Left, Right, Title, Thumbnail
 
 class RestaurantScreen extends Component {
     render() {
-        console.log(this.props);
         return (
             <Container>
                 <Content padder>
@@ -34,7 +33,7 @@ class RestaurantScreen extends Component {
     }
 }
 function mapStateToProps(state){
-    console.log(state);
+
     return {
         item: state.selectedItem
     };
